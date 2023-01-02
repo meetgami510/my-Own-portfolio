@@ -1,0 +1,34 @@
+.portfoliyo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:70vh; 
+}
+.portfoliyo span:nth-child(1){
+    color:blue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.portfoliyo span:nth-child(2){
+    color:rgba(187, 11, 241, 0.966);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.portfoliyo .swiper{
+    overflow: visible!important;
+    margin-top: 3rem;
+}
+.portfoliyo-slider {
+    margin-bottom:10rem;
+    width:100%;
+}
+.portfoliyo-slide .swiper-slide{
+    width:20rem;
+}
+.portfoliyo img{
+    width: 19rem;
+    filter:drop-shadow(-12px 15px 13px rgb(80, 1, 1));
+    border-radius:19px;
+}
+

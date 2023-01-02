@@ -1,0 +1,51 @@
+.services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    /* This give me a two div seperate */
+    height: 90vh;
+    /* here height give me the perfect pages  */
+    margin-bottom: 13rem;
+    margin-top: 9rem;
+
+}
+.s-left{
+    display: flex;
+    flex-direction:column; 
+    position: relative; 
+} 
+
+.s-left > :nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.s-left > :nth-child(2){
+    color: rgb(88, 2, 69);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.s-left>:nth-child(3){
+    color:var(--gray);
+    font-size: 14px;
+    margin-top:1rem;
+}
+.s-right{
+    position: relative;
+}
+
+.s-right>*{
+    position:absolute;
+}
+.s-blur2{
+    left:20rem;
+    top:8rem;
+}
+.s-blur1{
+    top:13rem;
+    left:-15rem;
+}
